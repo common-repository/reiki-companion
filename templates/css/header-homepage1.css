@@ -1,0 +1,36 @@
+h1.heading8 {
+    text-align: center;
+    margin-left: 0px;
+}
+
+.header-buttons-wrapper {
+    display: block;
+    margin: auto;
+    clear: both;
+    text-align: center;
+}
+
+.row.header_description {
+    margin: auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+@media only screen and (min-width: 768px) {
+    .row.header_description {
+        width: 80%;
+    }
+    a.primary_button {
+        margin-right: 10px;
+    }
+    a.secondary_button {
+        margin-right: 0px;
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (min-width: 1204px) {
+    .row.header_description {
+        width: 80%;
+    }
+}

@@ -1,0 +1,84 @@
+h1.heading8 {
+    text-align: center;
+}
+
+.header-buttons-wrapper {
+    display: block;
+    margin: auto;
+    clear: both;
+    text-align: center;
+    font-size: 0px;
+}
+
+.row.header_description {
+    width: 100%;
+    margin: 0px;
+}
+
+.header-right-column {
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .header-right-column {
+        width: 40%;
+        float: none;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+    }
+    .header-left-column {
+        width: 60%;
+        float: none;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    a.secondary_button {
+        margin-right: 0px;
+    }
+    .header-buttons-wrapper {
+        text-align: right;
+        margin-right: 0px;
+        margin-left: 5%;
+    }
+    h1.heading8 {
+        text-align: right;
+        font-size: 50px;
+        margin-right: 0px;
+    }
+    .header-buttons-wrapper a.orange_button {
+        margin-right: 0px;
+        margin-left: 20px;
+    }
+    .header-buttons-wrapper a.button {
+        margin-right: 0px
+    }
+}
+
+@media only screen and (min-width: 1204px) {
+    a.secondary_button {
+        margin-right: 0px;
+    }
+    .header-right-column {
+        width: 50%;
+        float: none;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+    }
+    .header-left-column {
+        width: 50%;
+        float: none;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    h1.heading8 {
+        text-align: left;
+        font-size: 70px;
+        margin-right: 0px;
+    }
+    .header-buttons-wrapper {
+        text-align: left;
+        margin-right: 0px;
+    }
+}

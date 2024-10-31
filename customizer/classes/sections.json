@@ -1,0 +1,316 @@
+{
+    "sections": {
+        "reiki_frontpage_general_settings": {
+            "controls": {
+                "reiki_contact_form_shortcode": {
+                    "params": {
+                        "label": "Contact form shortcode",
+                        "type": "text"
+                    },
+                    "settings": {
+                        "reiki_contact_form_shortcode": {
+                            "sanitize_callback": "sanitize_text_field",
+                            "default": "",
+                            "transport": "refresh"
+                        }
+                    }
+                },
+                "reiki_latest_news_read_more": {
+                    "params": {
+                        "type": "hidden",
+                        "label": "Home Page footer template"
+                    },
+                    "settings": {
+                        "reiki_latest_news_read_more": {
+                            "default": "read more",
+                            "sanitize_callback": "",
+                            "transport": "postMessage"
+                        }
+                    }
+                },
+
+                "reiki_latest_news_columns": {
+                    "params": {
+                        "type": "hidden",
+                        "label": "Home Page footer template"
+                    },
+                    "settings": {
+                        "reiki_latest_news_columns": {
+                            "default": "4",
+                            "sanitize_callback": ""
+                        }
+                    }
+                }
+            }
+        },
+        "reiki_webpage_headers": {
+
+            "controls": {
+                "reiki_header_template": {
+                    "params": {
+                        "type": "hidden",
+                        "label": "Home Page header template"
+                    },
+                    "settings": {
+                        "reiki_header_template": {
+                            "default": "homepage",
+                            "sanitize_callback": "sanitize_text_field"
+                        }
+                    }
+                },
+
+
+                "reiki_header_homepage_button_1_label": {
+                    "params": {
+                        "type": "hidden",
+                        "label": "About title"
+                    },
+                    "settings": {
+                        "reiki_header_homepage_button_1_label": {
+                            "default": "Start Now",
+                            "transport": "postMessage",
+                            "sanitize_callback": "sanitize_text_field"
+                        }
+                    }
+                },
+
+
+                "reiki_header_homepage_button_2_label": {
+                    "params": {
+                        "type": "hidden",
+                        "label": "About title"
+                    },
+                    "settings": {
+                        "reiki_header_homepage_button_2_label": {
+                            "default": "Learn More",
+                            "transport": "postMessage",
+                            "sanitize_callback": "sanitize_text_field"
+                        }
+                    }
+                },
+
+                "reiki_header_homepage_button_1_link": {
+                    "params": {
+                        "type": "hidden",
+                        "label": "About title"
+                    },
+                    "settings": {
+                        "reiki_header_homepage_button_1_link": {
+                            "default": "#",
+                            "transport": "postMessage",
+                            "sanitize_callback": "esc_url_raw"
+                        }
+                    }
+                },
+
+
+                "reiki_header_homepage_button_2_link": {
+                    "params": {
+                        "type": "hidden",
+                        "label": "About title"
+                    },
+                    "settings": {
+                        "reiki_header_homepage_button_2_link": {
+                            "default": "#",
+                            "transport": "postMessage",
+                            "sanitize_callback": "esc_url_raw"
+                        }
+                    }
+                },
+
+                "reiki_header_homepage_button_1_target": {
+                    "params": {
+                        "type": "hidden",
+                        "label": "About title"
+                    },
+                    "settings": {
+                        "reiki_header_homepage_button_1_target": {
+                            "default": "_self",
+                            "transport": "postMessage",
+                            "sanitize_callback": ""
+                        }
+                    }
+                },
+
+
+                "reiki_header_homepage_button_2_target": {
+                    "params": {
+                        "type": "hidden",
+                        "label": "About title"
+                    },
+                    "settings": {
+                        "reiki_header_homepage_button_2_target": {
+                            "default": "_self",
+                            "transport": "postMessage",
+                            "sanitize_callback": ""
+                        }
+                    }
+                },
+
+                "reiki_header_image": {
+                    "params": {
+                        "type": "hidden",
+                        "label": "About title"
+                    },
+                    "settings": {
+                        "reiki_header_image": {
+                            "default": "%pluginuri%/templates/images/site-screenshot-medium.png",
+                            "transport": "postMessage",
+                            "sanitize_callback": "esc_url_raw"
+                        }
+                    }
+                },
+
+
+
+                "reiki_header_homepage_paragraph": {
+                    "params": {
+                        "type": "hidden",
+                        "label": "About title"
+                    },
+                    "settings": {
+                        "reiki_header_homepage_paragraph": {
+                            "default": "Building websites is<br/>easy-peasy",
+                            "transport": "postMessage",
+                            "sanitize_callback": "wp_kses_post"
+                        }
+                    }
+                }
+            }
+        },
+
+        "reiki_footer": {
+            "params": {
+                "title": "Footer",
+                "description": "",
+                "priority": 32
+            },
+            "controls": {
+                "reiki_footer_template": {
+                    "params": {
+                        "type": "hidden",
+                        "label": "Home Page footer template"
+                    },
+                    "settings": {
+                        "reiki_footer_template": {
+                            "default": "default",
+                            "sanitize_callback": "sanitize_text_field"
+                        }
+                    }
+                },
+                "reiki_footer_insert": {
+                    "type": "template",
+                    "params": {
+                        "label": "Reiki Social Links Menu"
+
+                    }
+
+                },
+                "reiki_footer_boxes_b1_icon": {
+                    "params": {
+                        "type": "hidden",
+                        "label": "Home Page footer template"
+                    },
+                    "settings": {
+                        "reiki_footer_boxes_b1_icon": {
+                            "default": "fa-map-marker",
+                            "sanitize_callback": "sanitize_text_field",
+                            "transport": "postMessage"
+                        }
+                    }
+                },
+                "reiki_footer_boxes_b2_icon": {
+                    "params": {
+                        "type": "hidden",
+                        "label": "Home Page footer template"
+                    },
+                    "settings": {
+                        "reiki_footer_boxes_b2_icon": {
+                            "default": "fa-envelope-o",
+                            "sanitize_callback": "sanitize_text_field",
+                            "transport": "postMessage"
+                        }
+                    }
+                },
+                "reiki_footer_boxes_b3_icon": {
+                    "params": {
+                        "type": "hidden",
+                        "label": "Home Page footer template"
+                    },
+                    "settings": {
+                        "reiki_footer_boxes_b3_icon": {
+                            "default": "fa-phone",
+                            "sanitize_callback": "sanitize_text_field",
+                            "transport": "postMessage"
+                        }
+                    }
+                },
+                "reiki_footer_boxes_b1_text": {
+                    "params": {
+                        "type": "hidden",
+                        "label": "Home Page footer template"
+                    },
+                    "settings": {
+                        "reiki_footer_boxes_b1_text": {
+                            "default": "San Francisco - Adress - 18 California Street 1100.",
+                            "sanitize_callback": "sanitize_text_field",
+                            "transport": "postMessage"
+                        }
+                    }
+                },
+                "reiki_footer_boxes_b2_text": {
+                    "params": {
+                        "type": "hidden",
+                        "label": "Home Page footer template"
+                    },
+                    "settings": {
+                        "reiki_footer_boxes_b2_text": {
+                            "default": "hello@mycoolsite.com",
+                            "sanitize_callback": "sanitize_text_field",
+                            "transport": "postMessage"
+                        }
+                    }
+                },
+                "reiki_footer_boxes_b3_text": {
+                    "params": {
+                        "type": "hidden",
+                        "label": "Home Page footer template"
+                    },
+                    "settings": {
+                        "reiki_footer_boxes_b3_text": {
+                            "default": "+1 (555) 345 234343",
+                            "sanitize_callback": "sanitize_text_field",
+                            "transport": "postMessage"
+                        }
+                    }
+                },
+                "reiki_footer_boxes_b4_html": {
+                    "params": {
+                        "type": "hidden",
+                        "label": "Home Page footer template"
+                    },
+                    "settings": {
+                        "reiki_footer_boxes_b4_html": {
+                            "default": "",
+                            "sanitize_callback": "",
+                            "transport": "postMessage"
+                        }
+                    }
+                },
+                "reiki_footer_lists_b4_html": {
+                    "params": {
+                        "type": "hidden",
+                        "label": "Home Page footer template"
+                    },
+                    "settings": {
+                        "reiki_footer_lists_b4_html": {
+                            "default": "",
+                            "sanitize_callback": "",
+                            "transport": "postMessage"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

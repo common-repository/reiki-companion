@@ -1,0 +1,46 @@
+[{
+    "index": "1",
+    "id": "homepage",
+    "type": "header",
+    "name": "Default header",
+    "content": "<div data-section-type=\"header\" data-index=\"12\" data-id=\"homepage\" data-label=\"Default header\" class=\"header\">\n\n<\/div>",
+    "thumb": "http:\/\/cloudpress.co\/reiki\/header1.jpg",
+    "preview": "http:\/\/cloudpress.co\/reiki\/header1.jpg",
+    "description": "classic nav, left text"
+}, {
+    "index": "2",
+    "id": "homepage1",
+    "type": "header",
+    "name": "Default header",
+    "content": "<div data-section-type=\"header\" data-index=\"12\" data-id=\"homepage-1\" data-label=\"Default header\" class=\"header\">\n\n<\/div>",
+    "thumb": "http:\/\/cloudpress.co\/reiki\/header2.jpg",
+    "preview": "http:\/\/cloudpress.co\/reiki\/header2.jpg",
+    "description": "classic nav, center text"
+}, {
+    "index": "3",
+    "id": "homepage2",
+    "type": "header",
+    "name": "Default header",
+    "content": "<div data-section-type=\"header\" data-index=\"12\" data-id=\"homepage-1\" data-label=\"Default header\" class=\"header\">\n\n<\/div>",
+    "thumb": "http:\/\/cloudpress.co\/reiki\/header3.jpg",
+    "preview": "http:\/\/cloudpress.co\/reiki\/header3.jpg",
+    "description": "classic nav, right text"
+}, {
+    "index": "4",
+    "id": "homepage3",
+    "type": "header",
+    "name": "Default header",
+    "content": "<div data-section-type=\"header\" data-index=\"12\" data-id=\"homepage-1\" data-label=\"Default header\" class=\"header\">\n\n<\/div>",
+    "thumb": "http:\/\/cloudpress.co\/reiki\/header4.jpg",
+    "preview": "http:\/\/cloudpress.co\/reiki\/header4.jpg",
+    "description": "classic nav, left text, right image"
+}, {
+    "index": "5",
+    "id": "homepage4",
+    "type": "header",
+    "name": "Default header",
+    "content": "<div data-section-type=\"header\" data-index=\"12\" data-id=\"homepage-1\" data-label=\"Default header\" class=\"header\">\n\n<\/div>",
+    "thumb": "http:\/\/cloudpress.co\/reiki\/header5.jpg",
+    "preview": "http:\/\/cloudpress.co\/reiki\/header5.jpg",
+    "description": "classic nav, right text, left image"
+}]

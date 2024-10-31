@@ -1,0 +1,51 @@
+h1.heading8 {
+    text-align: center;
+}
+
+.header-buttons-wrapper {
+    display: block;
+    margin: auto;
+    clear: both;
+    text-align: center;
+    font-size: 0px;
+}
+
+.row.header_description {
+    margin: auto;
+    padding-bottom: 110px;
+}
+
+@media only screen and (min-width: 768px) {
+    .row.header_description {
+        width: 80%;
+        padding-bottom: 110px;
+        margin-left: 20%;
+        margin-right: 0px;
+    }
+    .header-buttons-wrapper {
+        text-align: right;
+    }
+    h1.heading8 {
+        text-align: right;
+    }
+    a.secondary_button {
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (min-width: 1204px) {
+    .row.header_description {
+        width: 50%;
+        padding-bottom: 110px;
+        margin-left: 50%;
+        margin-right: 0px;
+    }
+    h1.heading8 {
+        text-align: right;
+        margin-right: 5%;
+    }
+    .header-buttons-wrapper {
+        text-align: right;
+        margin-right: 5%;
+    }
+}

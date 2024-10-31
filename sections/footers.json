@@ -1,0 +1,28 @@
+[{
+    "index": "1",
+    "id": "default",
+    "type": "footer",
+    "name": "Default header",
+    "content": "<div data-section-type=\"header\" data-index=\"12\" data-id=\"default\" data-label=\"Default header\" class=\"header\">\n\n<\/div>",
+    "thumb": "http:\/\/cloudpress.co\/reiki\/footer1.jpg",
+    "preview": "http:\/\/cloudpress.co\/reiki\/footer1.jpg",
+    "description": "default footer"
+}, {
+    "index": "2",
+    "id": "content_lists",
+    "type": "footer",
+    "name": "Widgets Area",
+    "content": "<div data-section-type=\"header\" data-index=\"12\" data-id=\"content_lists\" data-label=\"Default header\" class=\"header\">\n\n<\/div>",
+    "thumb": "http:\/\/cloudpress.co\/reiki\/footer2.jpg",
+    "preview": "http:\/\/cloudpress.co\/reiki\/footer2.jpg",
+    "description": "footer with widgets area"
+}, {
+    "index": "3",
+    "id": "contact_boxes",
+    "type": "footer",
+    "name": "contant boxes",
+    "content": "<div data-section-type=\"header\" data-index=\"12\" data-id=\"content_boxes\" data-label=\"Default header\" class=\"header\">\n\n<\/div>",
+    "thumb": "http:\/\/cloudpress.co\/reiki\/footer3.jpg",
+    "preview": "http:\/\/cloudpress.co\/reiki\/footer3.jpg",
+    "description": "footer with content boxes"
+}]
